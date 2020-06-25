@@ -9,7 +9,7 @@ Big O notation is something that's extremely important to algorithms overall as 
 - Simplify Big O Expressions
 - Define "time complexity" and "space complexity"
 - Evaluate the time and space complexity of different algorithms using Big O Notation
-- Describe what a logarith mis
+- Describe what a logarithm is
 
 ## The need for Big O Notation
 

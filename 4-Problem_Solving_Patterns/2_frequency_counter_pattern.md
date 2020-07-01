@@ -1,6 +1,6 @@
-# Frequency Counter 
+# Frequency Counter
 
-This first pattern isn't *officially* called frequency counter, but that's the name we'll be using, since the idea behind it is that we use an object to collect a bunch of values and their frequencies.
+This first pattern isn't _officially_ called frequency counter, but that's the name we'll be using, since the idea behind it is that we use an object to collect a bunch of values and their frequencies.
 
 This therefore makes this pattern useful for when you have multiple pieces of data/inputs and you need to compare them to see if they consist of similar values, are anagrams, etc.
 
@@ -13,7 +13,9 @@ Let's look at an example to clarify this:
 As an example:
 
 same([1,2,3], [4,1,9]) //true
+
 same([1,2,3], [1,9]) //false
+
 same([1,2,1], [4,4,1]) //false (must be the same frequency)
 
 First let's use a 'naive' solution--a suboptimal solution:
@@ -76,12 +78,3 @@ frequencyCounter2 = {1: 1, 4: 2, 9: 1}
 ```
 
 Pretty sweet! The magic part is that we make one more loop. We loop over either frequencyCounter(in our case we did it over the first one), and it looks at how many times each key occurs, and looks for its squared equivalent in the other frequencyCounter. It's a little weird, but actually isn't as confusing as it looks.
-
-
-
-
-
-
-
-
-
